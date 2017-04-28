@@ -1,0 +1,27 @@
+span{
+    height:50px;
+    width:75px;
+    background:#00ff00;
+    display:inline-block;
+    clear:both;
+}
+
+body{
+    display:table;
+}
+div{
+    /*height:400px;*/
+    width:30%;
+    background:#00ffff;
+    display:table-cell;
+    /*overflow:scroll;*/
+    /*float:left;*/
+}
+
+p{
+    font-size:14px;
+    height:100px;
+    width:200px;
+    background:#ff00ff;
+    
+}

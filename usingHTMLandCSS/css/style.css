@@ -1,0 +1,130 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:2%;
+    background:#00274c;
+}
+
+h1{
+    font-family:Lobster, Arial;
+    color:#ffcb0b;text-align:center;
+    text-shadow: 2px 1px #000000; 
+}
+
+header{
+    height:150px;
+}
+nav{
+    background:#00274c;
+    text-align:center;
+}
+
+nav a{
+    display: inline-block;
+    width: 12%;
+    min-width: 100px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 2%;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 12%;
+    background: #00274c;
+    color:#ffffff;
+    opacity: 0.75;
+    font-size:90%;
+}
+
+nav a:hover{
+    opacity: 1 !important;
+    background:#043461;
+    color:#ffcb0b !important;
+    font-weight:bold;
+
+}
+
+nav a:visited{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+a{
+    text-decoration:none;
+    color:#ffcb0b;
+}
+
+a.visited{
+    color:#ffcb0b;
+}
+
+.left{
+    display:inline-block;
+    float:left;
+    background: #00274c;
+    width:20%;
+    min-width:150px;
+    height:125vh;
+    text-align:center;
+    margin-right:2px;
+}
+
+.left img{
+    box-sizing: border-box;
+    width:55%;
+    min-width:100px;
+    min-height:100px;
+    border: 2.5px solid #ffffff;
+    border-radius:50%;
+    margin-top: 50px;
+}
+
+.right{
+    display:inline-block;
+    float:left;
+    background:linear-gradient(#043461,#04203a);
+    width:50%;
+    min-width:150px;
+    margin-top: 25px;
+    padding-top:10px;
+    padding-left:5%;
+    padding-right:5%;
+    border: 2px solid #FFFFFF;
+    border-radius:2.5%;
+    font-size:90%;
+}
+
+h2{
+    color:#ffcb0b;
+    font-family:Lobster,Arial;
+    text-shadow: 2px 1px #000000;  
+}
+
+.subclass{
+    color:#f9f3a0;
+}
+p{
+    color:#ffffff;
+}
+
+ul{
+    color:#ffffff;
+}
+ul>li>ul>li{
+    opacity:0.8;
+}
+span{
+    font-style:italic;
+    font-size:x-small;
+    color:#f9f3a0 !important;
+}
+
+details{
+    opacity:0.8;
+}
+
+footer{
+    clear:both;
+    text-align:center;
+    font-size:smaller;
+    color:#ffcb0b !important;
+    text-align:center;
+}

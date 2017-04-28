@@ -1,0 +1,74 @@
+
+/* descendant selectors */
+nav a{
+    text-align: center;
+    color: #FFFFFF;
+    background: #0000FF;
+    display: inline-block;
+    width: 20%;
+    margin-right: 2%;
+}
+
+/* id selectors */
+#animals {
+    font-family: cursive;
+    text-align: center;
+    color: #0000FF;
+    display: inline-block;
+    margin:0 auto;
+}
+
+/* class selectors */
+
+.current{
+    color: #000000;
+    background: #0FFF00;
+    text-transform: uppercase;
+}
+
+.thumb{
+    border: 10px solid #0006CC; 
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    margin: 0px 20px;
+}
+
+#mainLogo{
+    border: 5px solid #0006CC;
+    margin:0 auto;
+}
+
+/* attribute selectors */
+li{
+    margin:5px;
+}
+
+a{
+    padding-left: 22px;
+    text-decoration: none;
+}
+
+a[href$=".org"] {
+    background: #FFFF00;
+}
+
+a[href$=".edu"] {
+    background: #FF00FF;
+}
+
+a[href$=".gov"] {
+    background: #00FF00;
+}
+
+a:hover{
+    color: #000000;
+    background: #0FFFFF;
+    border: 1px solid #000000;
+}
+
+a:focus{
+    color: #000000;
+    background: #0FFFFF;
+    border: 1px solid #000000;
+}

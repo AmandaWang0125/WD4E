@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Variables</title>
+    </head>
+    <body>
+        <p id ="1">Try typing in different types of inputs, charaters, numbers, etc. Does the code do what you think?</p>
+        <p id = "2">Save this file somewhere different on your machine.  See what happens to the link that prints out the URI.</p>
+        <p id = "3">What happens if you forget the script tags?</p>
+        <p id = "4">Test</p>
+        <script>
+            var name;
+            name = prompt("What is your name?");
+            console.log(name);
+            alert("Hello " + name);
+            document.write(name);
+            document.write("<h1>"+ name + "</h1>");
+            var date = Date();
+            document.write(date + "<br>");
+            document.write(document.baseURI+"<br>");
+            document.write(document.title+"<br>");
+            var pars = document.getElementsByTagName('p');
+            document.write(pars + "<br>");
+            document.write(pars.length + "<br>");
+            document.getElementById("4").innerHTML="This text replaced the word 'Test'.";
+            var par = document.getElementById("4");
+            document.write(par);
+        </script>
+    </body>
+</html>
