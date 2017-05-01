@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"/>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Forms</title>
+        <link rel="stylesheet" href="css/form1.css"/>
+    </head>
+    <body>
+        <h1>Forms</h1>
+        <h2>First example:</h2>
+        <form class='first'>
+            <legend>Personal Information:</legend>
+            <label for='name'>Name</label>
+            <input type='text' id='name' name='name'><br>
+            <label>Email:<input type='email' name='email'></label><br>
+            <label for='birth'>Date of Birth</label>
+            <input type='date' id='birth' value='birth'><br/><br/>
+            <input type='submit' value='Click Here'>
+        </form>
+        <br/>
+        <h2>Second example</h2>
+        <form class='second'>
+            <fieldset>
+                <legend>Input Types</legend>
+                <label>Name: <input type='text' id='name' name='name'></label>
+                <label>Email: <input type='email' name='email' placeholder='username@emailhost.com'></label>
+                <label>Password: <input type='password' name='pass'></label>
+                Radio Buttons<br/>
+                <label><input type='radio' name='sex' value='male'>Male</label>
+                <label><input type='radio' name='sex' value='female'>Female</label>
+                Checkboxes<br/>
+                <label><input type='checkbox' name='contac1' value='Bike'>Contact me via email</label>
+                <label><input type='checkbox' name='contact2' value='Bike'>Contact me via phone</label>
+                <label>Number: <input type='number' name='numberInput' min='1' max ='5'></label>
+                <label>Range: <input type='range' name='rangeInput' min='1' max='10'></label>
+                <label>Color: <input type='color' name='colorInput' min='1' max='10'></label>
+                <label>DOB: <input type='date' name='dateInput'></label>
+                <label>URL: <input type='url' name='urlInput' placeholder='http://www.domainname.com'></labeL><br/>
+                <label>Credit Card: <input type='text' name='creditInput' placeholder='XXXX-XXXX-XXXX-XXXX' pattern='[0-9]{16}' required><span>*required (omit dashes)</span></label>
+                <label>Exp. date: <input type='text' name='expInput' placeholder="mm/yy" required><span>*required</span></label>
+                <label>Security Code: <input type='text' name='codeInput' placeholder='XXX' pattern='[0-9]{3}' required><span>*required</span></label>
+                <label>Zip Code: <input type='text' name='zipInput' pattern='[0-9]{5}' required><span>*required</span></label><br/>
+                <input type='submit' value='Click Here'>
+            </fieldset>
+        </form>
+    </body>
+</html>

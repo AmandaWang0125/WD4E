@@ -1,0 +1,21 @@
+<!DOCTYPE = html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Validate Email Matches with Return</title>
+        <link rel="stylesheet" href="css/validation2.css">
+        <script src="js/validation2.js"></script>
+    </head>
+    <body>
+        <h1>Email Validation (with Return)</h1>
+        <form>
+            <label>Preferred email address:
+                <input type="email" id="email_addr" name="email1" placeholder="me@me.com" required>
+            </label>
+            <label>Verify email address:
+                <input type="email" id="email_repeat" name="email2" required onchange="return check()">
+            </label>
+            <input type="submit" onclick='return check();' value="Submit">
+        </form>
+    </body>
+</html>
